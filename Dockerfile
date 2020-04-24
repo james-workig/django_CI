@@ -9,7 +9,7 @@ WORKDIR /django_app
 
 COPY requirements.txt .
 
-
+USER root
 RUN echo "source activate base " > ~/.bashrc
 ENV PATH /opt/conda/bin:$PATH
 RUN pip --version
