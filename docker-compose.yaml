@@ -4,7 +4,7 @@ services:
   db:
     container_name: db
     hostname: db
-    image: "webserver:db"
+    image: "nouchka/sqlite3"
     stdin_open: true
     tty: true
     volumes:
@@ -13,7 +13,7 @@ services:
   redis:
     container_name: redis
     hostname: redis
-    image: "webserver:redis"
+    image: "redis"
     volumes:
       - .:/django_app
     ports:
