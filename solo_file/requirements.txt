@@ -23,7 +23,7 @@ jsonschema==3.2.0
 kiwisolver==1.1.0
 matplotlib==3.1.2
 more-itertools==7.2.0
-numpy==1.17.4
+numpy==1.22.0
 packaging==19.2
 pandas==0.25.3
 pdfkit==0.6.1
